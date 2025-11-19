@@ -1,0 +1,5 @@
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_05_Soru\bin\Debug\Ders_02_05_Soru.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_05_Soru\bin\Debug\Ders_02_05_Soru.pdb
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_05_Soru\obj\Debug\Ders_02_05_Soru.csprojResolveAssemblyReference.cache
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_05_Soru\obj\Debug\Ders_02_05_Soru.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_05_Soru\obj\Debug\Ders_02_05_Soru.pdb

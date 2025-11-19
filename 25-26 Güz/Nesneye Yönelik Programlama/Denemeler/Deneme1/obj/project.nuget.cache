@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "keJOnigpekw=",
+  "success": true,
+  "projectFilePath": "/home/arch/Belgeler/Dersler/25-26 Güz/Nesneye Yönelik Programlama/Denemeler/Deneme1/Deneme1.csproj",
+  "expectedPackageFiles": [
+    "/home/arch/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

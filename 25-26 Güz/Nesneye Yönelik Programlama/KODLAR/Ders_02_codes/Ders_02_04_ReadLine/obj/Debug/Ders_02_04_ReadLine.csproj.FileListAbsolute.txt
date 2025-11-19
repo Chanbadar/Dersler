@@ -1,0 +1,5 @@
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_04_ReadLine\bin\Debug\Ders_02_04_ReadLine.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_04_ReadLine\bin\Debug\Ders_02_04_ReadLine.pdb
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_04_ReadLine\obj\Debug\Ders_02_04_ReadLine.csprojResolveAssemblyReference.cache
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_04_ReadLine\obj\Debug\Ders_02_04_ReadLine.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_04_ReadLine\obj\Debug\Ders_02_04_ReadLine.pdb

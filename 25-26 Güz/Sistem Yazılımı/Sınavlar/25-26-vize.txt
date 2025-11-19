@@ -1,0 +1,14 @@
+1.Soru linuxda SistemYazilimi adlı bir dizin oluşturun ve içine Sistemyazilimi.c dosyası oluşturup dosyayı çalıştırın dosya çıktısı "Başarı hergün çalışma ile gelir" yazdıran komut ve kodları yazınız.
+
+
+4.soru komutları açıklayınız.
+ls:
+pwd:
+rm:
+rmdir:
+mkdir:
+cd:
+
+5.Soru 
+A- dosya sahibine yazma okuma yetkisi verin.
+B-Dosya sahibine yazma okuma ve gruba ise okuma izni veriniz.

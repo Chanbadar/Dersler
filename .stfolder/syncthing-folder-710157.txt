@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: zhmxc-mmv9l
+created: 2025-09-15T19:44:05Z

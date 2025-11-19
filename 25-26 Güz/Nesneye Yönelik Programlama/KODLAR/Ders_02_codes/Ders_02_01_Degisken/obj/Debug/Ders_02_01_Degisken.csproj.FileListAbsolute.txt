@@ -1,0 +1,4 @@
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_01_Degisken\bin\Debug\Ders_02_01_Degisken.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_01_Degisken\bin\Debug\Ders_02_01_Degisken.pdb
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_01_Degisken\obj\Debug\Ders_02_01_Degisken.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_01_Degisken\obj\Debug\Ders_02_01_Degisken.pdb

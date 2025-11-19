@@ -1,0 +1,5 @@
+1.Soru WBS şeması çiziniz.
+2.Soru RACI matrisi nedir ? ve örnekle açıklayınız.
+3.Soru Bir proje hakkında SWOT analizi sorusu. (proje insansız hava aracının görüntü işleme ile nesne takibi)
+4.Soru Balık kılçığı ve RCA açıklayınız ve örnek veriniz.
+5.Soru SDCL nedir adımlarını açıklayınız.

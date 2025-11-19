@@ -1,0 +1,13 @@
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_06_Dizi\bin\Debug\Ders_02_06_Dizi.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_06_Dizi\bin\Debug\Ders_02_06_Dizi.pdb
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.exe
+C:\Users\erdincuzun\Desktop\Ders_02\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.pdb
+C:\Users\m\Desktop\NYP\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.exe
+C:\Users\m\Desktop\NYP\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.pdb
+C:\Users\m\Desktop\Bozok University 2016 2017 Spring Term\NYP\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.exe
+C:\Users\m\Desktop\Bozok University 2016 2017 Spring Term\NYP\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.pdb
+D:\2019 - 2020 Öğretim Yılı\Güz\NDP\erdinç uzun hoca\Ders_02\Ders_02_codes\Ders_02_06_Dizi\bin\Debug\Ders_02_06_Dizi.exe
+D:\2019 - 2020 Öğretim Yılı\Güz\NDP\erdinç uzun hoca\Ders_02\Ders_02_codes\Ders_02_06_Dizi\bin\Debug\Ders_02_06_Dizi.pdb
+D:\2019 - 2020 Öğretim Yılı\Güz\NDP\erdinç uzun hoca\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.csproj.CoreCompileInputs.cache
+D:\2019 - 2020 Öğretim Yılı\Güz\NDP\erdinç uzun hoca\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.exe
+D:\2019 - 2020 Öğretim Yılı\Güz\NDP\erdinç uzun hoca\Ders_02\Ders_02_codes\Ders_02_06_Dizi\obj\Debug\Ders_02_06_Dizi.pdb

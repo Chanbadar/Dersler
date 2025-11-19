@@ -1,0 +1,13 @@
+1.Soru türkçe karakter içermeyen şifre
+2.n haneli sayı hanelerin (nüssülerin) toplamı kendine eşitse armstrong sayıdır sayıların armstrong olup olmadığını belirleyen sayıları yazan kodu yazınız.
+3.10 soruluk bir sınavda 7 ve üzeri alan iyi 4-7 ye kadar orta ,4 düşük kötü bunun kodunu yazınız
+4. Soru Şifre uzunluğu 4 ten küçükse tekrar şifre soran kod.
+5. Soru yıldızlarla üçgen çizen kodu yazınız
+*
+**
+***
+****
+*****
+****
+***
+**
