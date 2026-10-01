@@ -1,0 +1,14 @@
+D:\BAKIR\hafta2\uyg2\bin\Debug\net8.0\uyg2.exe
+D:\BAKIR\hafta2\uyg2\bin\Debug\net8.0\uyg2.deps.json
+D:\BAKIR\hafta2\uyg2\bin\Debug\net8.0\uyg2.runtimeconfig.json
+D:\BAKIR\hafta2\uyg2\bin\Debug\net8.0\uyg2.dll
+D:\BAKIR\hafta2\uyg2\bin\Debug\net8.0\uyg2.pdb
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.GeneratedMSBuildEditorConfig.editorconfig
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.AssemblyInfoInputs.cache
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.AssemblyInfo.cs
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.csproj.CoreCompileInputs.cache
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.dll
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\refint\uyg2.dll
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.pdb
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\uyg2.genruntimeconfig.cache
+D:\BAKIR\hafta2\uyg2\obj\Debug\net8.0\ref\uyg2.dll
