@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Bulut Bilişim - Hafta 1 Araştırma Ödevi Raporu</title>
+<style>
+    @page {
+        size: A4;
+        margin: 20mm 20mm 20mm 20mm;
+    }
+    body {
+        font-family: 'Liberation Serif', 'Times New Roman', serif;
+        font-size: 11pt;
+        line-height: 1.5;
+        color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-family: 'Liberation Sans', Arial, sans-serif;
+        font-size: 18pt;
+        color: #1a365d;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    h2 {
+        font-family: 'Liberation Sans', Arial, sans-serif;
+        font-size: 13pt;
+        color: #2b6cb0;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+    h3 {
+        font-family: 'Liberation Sans', Arial, sans-serif;
+        font-size: 12pt;
+        color: #2c5282;
+        border-bottom: 1.5px solid #e2e8f0;
+        padding-bottom: 4px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    ul, ol {
+        margin-top: 0;
+        margin-bottom: 12px;
+        padding-left: 22px;
+    }
+    li {
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+    .cover-box {
+        background-color: #f7fafc;
+        border: 1px solid #cbd5e0;
+        border-left: 4px solid #3182ce;
+        padding: 12px 18px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        font-size: 10.5pt;
+    }
+    .cover-box table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .cover-box td {
+        padding: 3px 0;
+        border: none;
+    }
+    .cover-box td.label {
+        font-weight: bold;
+        width: 180px;
+        color: #2d3748;
+    }
+    table.data-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 12px;
+        margin-bottom: 16px;
+        font-size: 9.5pt;
+        line-height: 1.35;
+    }
+    table.data-table th, table.data-table td {
+        border: 1px solid #cbd5e0;
+        padding: 7px 10px;
+        vertical-align: top;
+    }
+    table.data-table th {
+        background-color: #edf2f7;
+        color: #2d3748;
+        font-family: 'Liberation Sans', Arial, sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+    table.data-table tr:nth-child(even) td {
+        background-color: #f8fafc;
+    }
+    .table-caption {
+        font-family: 'Liberation Sans', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 10pt;
+        color: #2d3748;
+        margin-top: 14px;
+        margin-bottom: 6px;
+    }
+    .note-box {
+        background-color: #ebf8ff;
+        border-left: 3px solid #3182ce;
+        padding: 8px 12px;
+        margin: 10px 0;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .reference-list {
+        font-size: 9.5pt;
+        line-height: 1.45;
+        padding-left: 0;
+        list-style-type: none;
+    }
+    .reference-list li {
+        margin-bottom: 8px;
+        padding-left: 28px;
+        text-indent: -28px;
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+
+<h1>BULUT BİLİŞİM DERSİ</h1>
+<h2>HAFTA 1 ARAŞTIRMA ÖDEVİ: BİR İŞ YÜKÜ İÇİN BULUT ÇÖZÜMÜ SEÇİMİ</h2>
+
+<div class="cover-box">
+    <table>
+        <tr><td class="label">Dersin Adı:</td><td>Bulut Bilişim</td></tr>
+        <tr><td class="label">Ödevin Adı:</td><td>Hafta 1 Araştırma Ödevi: Bir İş Yükü İçin Bulut Çözümü Seçimi</td></tr>
+        <tr><td class="label">Seçilen İş Yükü:</td><td>Üniversite Ders Kayıt ve Bilgi Yönetim Sistemi</td></tr>
+        <tr><td class="label">Öğrencinin Adı ve Soyadı:</td><td>[Öğrenci Adı Soyadı]</td></tr>
+        <tr><td class="label">Öğrenci Numarası:</td><td>[Öğrenci Numarası]</td></tr>
+        <tr><td class="label">Teslim Tarihi:</td><td>Ekim 2026</td></tr>
+    </table>
+</div>
+
+<h3>2. Seçilen İş Yükünün Tanıtılması</h3>
+<p>
+Seçilen iş yükü <strong>"Üniversite Ders Kayıt ve Bilgi Yönetim Sistemi"</strong>dir. Sistem; yaklaşık 30.000 aktif lisans ve lisansüstü öğrencinin, 1.500 akademik danışmanın ve Öğrenci İşleri Daire Başkanlığı personelinin dönem başlarında ders seçimi, kontenjan takibi, önkoşul kontrolü ve danışman onay süreçlerini yürüttüğü kurumsal bir web platformudur [1].
+</p>
+<p>
+Sistem; kimlik bilgileri (T.C. kimlik no, parola karmaları), akademik kayıtlar (transkript, genel not ortalamaları) ile müfredat ve kontenjan verilerini işler. Sistemin yük profili yıl içine son derece dengesiz dağılmıştır. Akademik takvimin yaklaşık 50 haftasında yalnızca düşük yoğunluklu not ve belge görüntüleme sorguları yapılırken, güz ve bahar yarıyılı kayıt sabahlarında (özellikle 09:00'da) on binlerce öğrencinin eşzamanlı istek göndermesiyle ekstrem bir talep patlaması (spike) yaşanır. Bu kritik saatlerdeki olası kesintiler öğrenci mağduriyetine, kontenjan dağılımında adaletsizliğe ve kurumsal itibar kaybına yol açar. Ayrıca işlenen tüm veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve YÖK düzenlemeleri kapsamında yüksek hassasiyetli kişisel veriler niteliğindedir.
+</p>
+
+<h3>3. İş Yükünün Temel Gereksinimleri</h3>
+<p>Sistemin mimari ve teknik gereksinimleri beş temel başlıkta toplanmıştır:</p>
+<ol>
+    <li><strong>Yüksek Eşzamanlılık ve Düşük Gecikme (Concurrency & Latency):</strong> Kayıt anında saniyede binlerce isteği kilitlenme ve zaman aşımı olmaksızın karşılayabilme kapasitesi.</li>
+    <li><strong>ACID Veri Tutarlılığı:</strong> Kotalı derslerde kontenjan aşımını (overbooking) ve yarış durumlarını (race condition) engelleyen ilişkisel bütünlük garantisi.</li>
+    <li><strong>Bellek İçi Önbellekleme:</strong> Müfredat ve ders katalogları gibi sık sorgulanan statik verilerin birincil veritabanını tüketmemesi için hızlı önbellek katmanı.</li>
+    <li><strong>Veri Güvenliği ve Gizliliği:</strong> Kişisel verilerin aktarımda (TLS 1.3) ve depolamada (AES-256) şifrelenmesi, yetkilerin rol tabanlı erişim kontrolü (RBAC) ile sınırlandırılması.</li>
+    <li><strong>Dinamik Ölçeklenebilirlik:</strong> Sakin dönemlerde asgari kaynak tüketip kayıt günlerinde otomatik olarak genişleyebilen elastik altyapı.</li>
+</ol>
+
+<h3>4. NIST Temel Özelliklerinin İş Yükündeki Karşılıkları</h3>
+<p>NIST SP 800-145 belgesindeki beş temel niteliğin incelenen iş yükündeki karşılıkları şunlardır [1]:</p>
+<ul>
+    <li><strong>On-demand self-service (İsteğe bağlı self servis):</strong> Üniversite BT ekibinin kayıt haftasından önce sağlayıcı personeline ihtiyaç duymadan, konsol veya API üzerinden yeni uygulama düğümleri ve veritabanı okuma kopyaları tahsis edebilmesidir.</li>
+    <li><strong>Broad network access (Geniş ağ erişimi):</strong> Öğrencilerin ve akademisyenlerin kampüs ağından, ev internetinden veya mobil cihazlardan standart web protokolleriyle sisteme kesintisiz erişebilmesidir.</li>
+    <li><strong>Resource pooling (Kaynak havuzlama):</strong> Sağlayıcının çok kiracılı fiziksel sunucu havuzunu dinamik paylaştırarak, üniversitenin kayıt sabahı ihtiyaç duyduğu yüksek işlem gücünü ortak altyapıdan sağlamasıdır.</li>
+    <li><strong>Rapid elasticity (Hızlı esneklik):</strong> Kayıt sabahı 09:00'da artan yük karşısında uygulama sunucularının otomatik olarak 3'ten 30 örneğe fırlaması, kayıt haftası bitiminde tekrar 3 örneğe inebilmesidir [5].</li>
+    <li><strong>Measured service (Ölçülebilir hizmet):</strong> Tüketilen vCPU saati, RAM ve ağ trafiğinin ölçülerek faturalandırılması; üniversitenin tatil aylarında atıl sunucu parası ödemeyip yalnızca tükettiği kaynak kadar ödeme yapmasıdır.</li>
+</ul>
+
+<h3>5. Hizmet Modeli Seçimi ve Gerekçesi</h3>
+<p>Bulut hizmet modelleri kuruma farklı denetim ve yönetim sorumlulukları sunar [1], [2]:</p>
+<ul>
+    <li><strong>IaaS:</strong> Donanım yönetimini kaldırsa da işletim sistemi yamaları, güvenlik güncellemeleri ve küme yönetimi üniversitenin sınırlı BT personeline ağır bakım yükü bindirir.</li>
+    <li><strong>SaaS:</strong> Hazır bir yazılım sunsa da üniversitenin özelleşmiş müfredat kurallarına, çakışma algoritmalarına ve yerel entegrasyonlarına uyum sağlayamaz; yüksek sağlayıcı bağımlılığı üretir.</li>
+</ul>
+<p>
+<strong>Seçilen Model: PaaS (Yönetilen Konteyner / Platform) ve DBaaS (Hizmet Olarak Veritabanı)</strong><br>
+Uygulama katmanı için PaaS/CaaS, veritabanı için DBaaS ve bellek içi önbellekleme mimarisi seçilmiştir. <em>Gerekçe:</em> Üniversite yazılım ekibi işletim sistemi ve sunucu bakımıyla vakit kaybetmeden doğrudan ders kayıt iş mantığına odaklanabilir. PaaS katmanı gelen istek yoğunluğuna göre konteynerleri milisaniyeler içinde yatayda ölçeklerken, DBaaS modeli otomatik yedekleme, çoklu kullanılabilirlik alanı (Multi-AZ) ve anlık salt-okunur kopya (read-replica) desteğiyle veri bütünlüğünü ve kesintisizliği garanti altına alır.
+</p>
+
+<h3>6. Dağıtım Modeli Seçimi ve Gerekçesi</h3>
+<p>Dağıtım modelleri veri hassasiyeti, mevzuat ve esneklik ölçütleriyle değerlendirilmiştir [1], [3]:</p>
+<ul>
+    <li><strong>Genel Bulut:</strong> Üstün esneklik sunar; ancak KVKK ve YÖK düzenlemeleri gereği kalıcı akademik sicil verilerinin yurt dışı veri merkezlerinde barındırılması yasal kısıtlamalara tabidir.</li>
+    <li><strong>Özel Bulut:</strong> Veri egemenliği sağlar; ancak yılda sadece birkaç gün yaşanacak tepe yük için yüzlerce sunucu satın alıp yıl boyu atıl bekletmek kamu kaynakları açısından verimsizdir.</li>
+</ul>
+<p>
+<strong>Seçilen Dağıtım Modeli: Hibrit Bulut (Hybrid Cloud)</strong><br>
+<em>Gerekçe:</em> Bu iş yükü için en optimum çözüm hibrit buluttur. Kalıcı transkript, kimlik ve resmi sicil verileri üniversitenin kurum içi (on-premises) özel veri merkezinde tutulur. Kayıt haftasında yoğun trafiği göğüsleyen web arayüzleri, statik içerikler ve kayıt kuyrukları genel bulutun elastik ortamında çalıştırılır. İki ortam şifreli özel ağ tüneliyle (IPsec VPN / Direct Connect) bağlanır. Böylece hem veri egemenliği ve mevzuat uyumu sağlanır hem de genel bulutun sınırsız esnekliğinden yararlanılarak sistem çökmesi önlenir.
+</p>
+
+<h3>7. Ekonomik Değerlendirme</h3>
+<p>Önerilen mimari kurum içi altyapıyla ekonomik olarak karşılaştırıldığında şu sonuçlar öne çıkar [2], [4]:</p>
+<ul>
+    <li><strong>CapEx ve OpEx Dengesi:</strong> Geleneksel modelde tepe yükü karşılayacak donanım için yüksek sermaye harcaması (CapEx) gerekirken; bulut çözümü bu yatırımı ortadan kaldırarak kullandıkça ödenen operasyonel gidere (OpEx) dönüştürür.</li>
+    <li><strong>Atıl Kapasite Riskinin Bertarafı:</strong> Yılın %95'inde düşük çalışan bir sistemde tepe yüke göre sunucu satın almak devasa bir atıl kapasite israfıdır. Bulutun esnekliği bu israfı önler.</li>
+    <li><strong>Maliyet Yanılgısı ve Riskler:</strong> "Bulut her zaman daha ucuzdur" kabulü yanlıştır. Kayıt dönemi sonrasında ölçeklenen kaynaklar küçültülmezse (scale-in unutulursa), veri transferi (egress) izlenmezse ve gereksiz test ortamları açık bırakılırsa maliyet kurum içini aşabilir. FinOps bütçe alarmları ve otomatik kapanma kuralları zorunludur.</li>
+</ul>
+
+<h3>8. Paylaşılan Sorumlulukların Değerlendirilmesi</h3>
+<p>Önerilen PaaS ve DBaaS hibrit mimarisinde sorumluluklar sağlayıcı ve üniversite arasında şöyle paylaşılır [2], [3]:</p>
+
+<table class="data-table">
+    <thead>
+        <tr>
+            <th style="width: 25%;">Sorumluluk Alanı</th>
+            <th style="width: 37%;">Bulut Sağlayıcısının Sorumluluğu</th>
+            <th style="width: 38%;">Üniversitenin (Müşterinin) Sorumluluğu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Fiziksel Altyapı</strong></td>
+            <td>Veri merkezi güvenliği, sunucu donanımı, güç ve soğutma.</td>
+            <td>Sorumluluğu yoktur.</td>
+        </tr>
+        <tr>
+            <td><strong>İşletim Sistemi</strong></td>
+            <td>Sunucu işletim sisteminin kurulumu, çekirdek yamaları ve güvenliği.</td>
+            <td>Doğrudan erişimi yoktur; sorumlu değildir (PaaS avantajı).</td>
+        </tr>
+        <tr>
+            <td><strong>Uygulama</strong></td>
+            <td>Çalışma ortamı (runtime) kararlılığı ve temel platform desteği.</td>
+            <td>Ders kayıt yazılım kodu, iş kuralları ve uygulama güvenlik açıkları.</td>
+        </tr>
+        <tr>
+            <td><strong>Kullanıcı Hesapları & Erişim</strong></td>
+            <td>IAM kimlik altyapısının sürekliliği.</td>
+            <td>Öğrenci ve danışman yetkileri, roller ve çok faktörlü doğrulama (MFA).</td>
+        </tr>
+        <tr>
+            <td><strong>Veriler</strong></td>
+            <td>Depolama medyasının donanımsal dayanıklılığı ve replikasyonu.</td>
+            <td>Veri sınıflandırması, KVKK uyumu, şifreleme anahtarları ve bütünlük.</td>
+        </tr>
+        <tr>
+            <td><strong>Güvenlik Yapılandırmaları</strong></td>
+            <td>Sanal ağ ve hipervizör izolasyonu.</td>
+            <td>Güvenlik grupları, port kuralları ve Web Uygulama Güvenlik Duvarı (WAF).</td>
+        </tr>
+        <tr>
+            <td><strong>Yedekleme ve Güncelleme</strong></td>
+            <td>Otomatik snapshot ve Multi-AZ replikasyon altyapısı.</td>
+            <td>Yedekleme politikaları (RPO/RTO), felaket kurtarma ve yazılım sürümleri.</td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<em>IaaS - PaaS Farkı:</em> IaaS kullanılsaydı sanal makinelerin işletim sistemi yamaları ve çekirdek güvenliği üniversiteye ait olacaktı. PaaS modelinde bu yük sağlayıcıya devredilmiş; üniversite sadece uygulama ve veriye odaklanmıştır.
+</p>
+
+<h3>9. Kontrol Düzlemi ve Veri Düzlemi Örnekleri</h3>
+<p>Sistem işlemleri iki temel düzleme ayrılır [2], [4]:</p>
+<ul>
+    <li><strong>Kontrol Düzlemi (Control Plane) Örnekleri:</strong>
+        <ol>
+            <li>Bilgi işlem yöneticisinin kayıt sabahı öncesinde yönetim konsolundan PaaS konteyner kümesinin asgari örneğini 3'ten 25'e çıkarması ve otomatik ölçeklendirme kuralını güncellemesi.</li>
+            <li>Veritabanı yöneticisinin kayıt dönemi öncesinde DBaaS üzerinde yeni bir salt-okunur kopya (read-replica) tahsis etmesi veya IAM üzerinden danışmanlara onay yetkisi tanımlaması.</li>
+        </ol>
+    </li>
+    <li><strong>Veri Düzlemi (Data Plane) Örnekleri:</strong>
+        <ol>
+            <li>Bir öğrencinin web tarayıcısı üzerinden bir dersin güncel kontenjan durumunu ekranda sorgulaması (SELECT veritabanı okuma işlemi).</li>
+            <li>Bir öğrencinin "Dersi Ekle" butonuna tıklamasıyla kontenjan sayacının bir azaltılıp dersin öğrenci sepetine işlenmesi (INSERT/UPDATE veritabanı yazma işlemi).</li>
+        </ol>
+    </li>
+</ul>
+
+<h3>10. AWS, Microsoft Azure ve Google Cloud Hizmet Karşılıkları</h3>
+<p>Sistem gereksinimlerinin üç büyük bulut sağlayıcısındaki karşılıkları Tablo 1'de listelenmiştir [2], [3], [4]:</p>
+
+<div class="table-caption">Tablo 1. Seçilen iş yükü için sağlayıcı bağımsız gereksinimlerin AWS, Microsoft Azure ve Google Cloud karşılıkları</div>
+<table class="data-table">
+    <thead>
+        <tr>
+            <th style="width: 22%;">Gereksinim / Hizmet</th>
+            <th style="width: 20%;">AWS Karşılığı</th>
+            <th style="width: 20%;">Azure Karşılığı</th>
+            <th style="width: 18%;">Google Cloud</th>
+            <th style="width: 20%;">Sistemdeki Amacı</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>1. Yönetilen Konteyner Platformu (PaaS/CaaS)</strong></td>
+            <td>AWS Elastic Beanstalk / App Runner</td>
+            <td>Azure App Service / Container Apps</td>
+            <td>Google Cloud Run / App Engine</td>
+            <td>Kayıt web arayüzünün ve API servislerinin otomatik ölçeklenerek çalıştırılması.</td>
+        </tr>
+        <tr>
+            <td><strong>2. Yönetilen İlişkisel Veritabanı (DBaaS)</strong></td>
+            <td>Amazon RDS for PostgreSQL / Aurora</td>
+            <td>Azure Database for PostgreSQL</td>
+            <td>Google Cloud SQL for PostgreSQL</td>
+            <td>Öğrenci, ders ve kontenjan kayıtlarının ACID güvencesiyle saklanması.</td>
+        </tr>
+        <tr>
+            <td><strong>3. Yönetilen Bellek İçi Önbellek (Cache)</strong></td>
+            <td>Amazon ElastiCache (Redis)</td>
+            <td>Azure Cache for Redis</td>
+            <td>Google Cloud Memorystore</td>
+            <td>Sık sorgulanan ders listeleri, kota sayaçları ve oturumların hızlandırılması.</td>
+        </tr>
+        <tr>
+            <td><strong>4. Nesne Depolama (Object Storage)</strong></td>
+            <td>Amazon S3</td>
+            <td>Azure Blob Storage</td>
+            <td>Google Cloud Storage</td>
+            <td>Ders izlenceleri (syllabus), transkript PDF'leri ve statik web varlıklarının saklanması.</td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<em>Hizmetlerin Eş Değerliği Üzerine Not:</em> Tablodaki ürünler aynı ihtiyacı karşılasa da bire bir eş değer kabul edilmemelidir. Konteynerlerin sıfıra ölçeklenme davranışı (scale-to-zero), veritabanı replikasyon gecikmeleri, Türkiye'ye olan ağ gecikmesi (latency), SLA taahhütleri ve fiyatlandırma modelleri farklıdır. Seçim ürün adına göre değil, teknik gereksinimlere göre yapılmalıdır.
+</p>
+
+<h3>11. Sonuç ve Öneri</h3>
+<p>Teknik, ekonomik ve yönetsel analizlerin özeti şöyledir:</p>
+<ul>
+    <li><strong>Seçilen Hizmet Modelleri:</strong> PaaS (Uygulama), DBaaS (Veritabanı), Bellek İçi Önbellek ve Nesne Depolama.</li>
+    <li><strong>Seçilen Dağıtım Modeli:</strong> Hibrit Bulut (Hybrid Cloud).</li>
+    <li><strong>En Önemli İki Yarar:</strong>
+        <ol>
+            <li><em>Kesintisiz Esneklik:</em> Kayıt sabahlarındaki aşırı trafik dalgalanmalarında otomatik genişleyerek sistem çökmesini ve öğrenci mağduriyetini önlemesi.</li>
+            <li><em>Atıl Kapasite Maliyetinin Sıfırlanması:</em> Yılın %95'lik sakin döneminde gereksiz sunucu yatırımı ve bakım maliyetlerinden tasarruf sağlaması.</li>
+        </ol>
+    </li>
+    <li><strong>En Önemli İki Risk ve Sınırlılık:</strong>
+        <ol>
+            <li><em>FinOps ve Maliyet Riski:</em> Kayıt sonrasında kaynakların küçültülmemesi veya kontrolsüz veri transferi sonucu yüksek fatura oluşması riski.</li>
+            <li><em>Hibrit Ağ ve Mevzuat Karmaşıklığı:</em> Kurum içi altyapı ile genel bulut arasındaki şifreli ağın yönetimi ve KVKK uyum süreçlerinin getirdiği yönetsel zorluklar.</li>
+        </ol>
+    </li>
+    <li><strong>Kurum Bu İş Yükünü Buluta Taşımalı mıdır?</strong><br>
+        <strong>Kesin Karar: Evet, taşımalıdır.</strong><br>
+        <em>Teknik Gerekçe:</em> Yıl içine dengesiz dağılan döngüsel tepe yükler geleneksel donanım mimarileriyle verimli yönetilemez.<br>
+        <em>Ekonomik Gerekçe:</em> Yılda sadece 10 gün çalışacak sunucuların 5 yıllık amortisman ve bakım maliyetini peşin ödemek kamu kaynaklarını israf etmektir.<br>
+        <em>Yönetsel Gerekçe:</em> Hibrit mimari sayesinde hassas veriler kurum içinde korunurken, BT ekibi donanım ve işletim sistemi yamaları yerine eğitim yazılımlarının geliştirilmesine odaklanabilecektir.
+    </li>
+</ul>
+
+<h3>12. Kaynakça</h3>
+<ul class="reference-list">
+    <li>[1] Mell, P., & Grance, T. (2011). <em>The NIST Definition of Cloud Computing</em> (Special Publication 800-145). National Institute of Standards and Technology (NIST), U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-145</li>
+    <li>[2] Amazon Web Services. (2024). <em>Shared Responsibility Model and Cloud Architecture Center</em>. AWS Documentation. https://aws.amazon.com/compliance/shared-responsibility-model/</li>
+    <li>[3] Microsoft Learn. (2024). <em>Shared Responsibility in the Cloud & Azure Architecture Center</em>. Microsoft Technical Documentation. https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility</li>
+    <li>[4] Google Cloud. (2024). <em>Google Cloud Architecture Framework: Security, Scalability, and System Design</em>. Google Cloud Documentation. https://cloud.google.com/architecture/framework</li>
+    <li>[5] Armbrust, M., Fox, A., Griffith, R., Joseph, A. D., Katz, R., Konwinski, A., Lee, G., Patterson, D., Rabkin, A., Stoica, I., & Zaharia, M. (2010). <em>A View of Cloud Computing</em>. Communications of the ACM, 53(4), 50-58. https://doi.org/10.1145/1721654.1721672</li>
+</ul>
+
+</body>
+</html>
