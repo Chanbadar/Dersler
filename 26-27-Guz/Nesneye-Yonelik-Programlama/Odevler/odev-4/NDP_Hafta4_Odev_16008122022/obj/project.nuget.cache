@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L39MxR6NKEI=",
+  "success": true,
+  "projectFilePath": "/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/NDP_Hafta4_Odev_16008122022.csproj",
+  "expectedPackageFiles": [
+    "/home/arch/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

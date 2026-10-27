@@ -1,0 +1,15 @@
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/bin/Debug/net10.0/NDP_Hafta4_Odev_16008122022
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/bin/Debug/net10.0/NDP_Hafta4_Odev_16008122022.deps.json
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/bin/Debug/net10.0/NDP_Hafta4_Odev_16008122022.runtimeconfig.json
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/bin/Debug/net10.0/NDP_Hafta4_Odev_16008122022.dll
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/bin/Debug/net10.0/NDP_Hafta4_Odev_16008122022.pdb
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.GeneratedMSBuildEditorConfig.editorconfig
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.AssemblyInfoInputs.cache
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.AssemblyInfo.cs
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.csproj.CoreCompileInputs.cache
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.sourcelink.json
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.dll
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/refint/NDP_Hafta4_Odev_16008122022.dll
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.pdb
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/NDP_Hafta4_Odev_16008122022.genruntimeconfig.cache
+/home/arch/Dersler/26-27-Guz/Nesneye-Yonelik-Programlama/Odevler/odev-4/NDP_Hafta4_Odev_16008122022/obj/Debug/net10.0/ref/NDP_Hafta4_Odev_16008122022.dll
