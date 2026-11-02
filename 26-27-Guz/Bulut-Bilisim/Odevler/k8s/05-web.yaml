@@ -1,0 +1,73 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: hafta6
+spec:
+  replicas: 1
+  revisionHistoryLimit: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      automountServiceAccountToken: false
+      containers:
+      - name: web
+        image: dersnotlari-web:1.1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - configMapRef:
+            name: app-config
+        env:
+        - name: DB_PASSWORD_FILE
+          value: /run/secrets/db_password
+        - name: APP_SECRET_FILE
+          value: /run/secrets/app_secret
+        startupProbe:
+          httpGet:
+            path: /health/live
+            port: 8000
+          periodSeconds: 5
+          failureThreshold: 30
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 8000
+          periodSeconds: 5
+          timeoutSeconds: 10
+          failureThreshold: 2
+        livenessProbe:
+          exec:
+            command:
+            - python
+            - -c
+            - >
+              import pathlib, urllib.request;
+              assert not pathlib.Path('/tmp/live-fail').exists();
+              urllib.request.urlopen(
+              'http://127.0.0.1:8000/health/live', timeout=2).read()
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        resources:
+          requests: {cpu: 100m, memory: 128Mi}
+          limits: {cpu: 500m, memory: 256Mi}
+        volumeMounts:
+        - name: secret
+          mountPath: /run/secrets
+          readOnly: true
+      volumes:
+      - name: secret
+        secret:
+          secretName: app-secrets

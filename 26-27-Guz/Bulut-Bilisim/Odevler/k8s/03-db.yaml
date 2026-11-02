@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db
+  namespace: hafta6
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: db
+  template:
+    metadata:
+      labels:
+        app: db
+    spec:
+      automountServiceAccountToken: false
+      containers:
+      - name: db
+        image: postgres:16
+        env:
+        - name: POSTGRES_DB
+          value: dersnotlari
+        - name: POSTGRES_USER
+          value: dersuser
+        - name: POSTGRES_PASSWORD_FILE
+          value: /run/secrets/db_password
+        - name: PGDATA
+          value: /var/lib/postgresql/data/pgdata
+        ports:
+        - containerPort: 5432
+        readinessProbe:
+          exec:
+            command: [pg_isready, -U, dersuser, -d, dersnotlari]
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        resources:
+          requests: {cpu: 100m, memory: 128Mi}
+          limits: {cpu: 500m, memory: 512Mi}
+        volumeMounts:
+        - name: data
+          mountPath: /var/lib/postgresql/data
+        - name: secret
+          mountPath: /run/secrets
+          readOnly: true
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: db-data
+      - name: secret
+        secret:
+          secretName: app-secrets
+          items:
+          - key: db_password
+            path: db_password

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+secrets/
+k8s/
+*.docx
+*.pdf
+ek*.txt
+hafta*.txt

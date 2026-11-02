@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: hafta6
+data:
+  DB_HOST: db
+  DB_PORT: "5432"
+  DB_NAME: dersnotlari
+  DB_USER: dersuser
+  COOKIE_SECURE: "false"
