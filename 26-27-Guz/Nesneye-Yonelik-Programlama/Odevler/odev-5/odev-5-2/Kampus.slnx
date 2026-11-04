@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Kampus.Konsol/Kampus.Konsol.csproj" />
+  <Project Path="Kampus.Model/Kampus.Model.csproj" />
+</Solution>
